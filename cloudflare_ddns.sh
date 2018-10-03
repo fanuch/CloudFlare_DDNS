@@ -10,14 +10,14 @@ command -v jq >/dev/null 2>&1 || { logger -s "cf_ddns" "[WARNING] jq is required
 #
 #######################################################################################
 # VARIABLES TO CHANGE                                                                 #
-cf_api_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	                              # CloudFlare token#
-zid=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx				# Cloudflare Zone ID              #
-email=email@domain.com								# Cloudflare login account        #
-domain=sub.domain.com			            		# Domain Name you wish to update  #
+cf_api_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	           # CloudFlare token #
+zid=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx		                 # Cloudflare Zone ID #
+email=email@domain.com			                   # Cloudflare login account #
+domain=sub.domain.com			             # Domain Name you wish to update #
 #######################################################################################
 # DEFAULTS                                                                            #
-type=A			 									# CloudFlare Record Type	      #
-ttl=1												# TTL value					      #
+type=A			 			             # CloudFlare Record Type #
+ttl=1				                                          # TTL value #
 #######################################################################################
 
 #
